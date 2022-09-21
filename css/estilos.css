@@ -1,0 +1,263 @@
+*{margin: 0px;
+  padding: 0px;}  /* esto es un reset de margenes y espaciados de de textos y secciones */
+html{100vh} {font-size: 10px;} /*determina el tamaño de la fuente en todo el html y luego con la unidad relativa REM parto del valor de la fuente que le di al html y pongo, 1rem va a ser igual a los 10px, 2rem= 20px, 4rem=40px y asi sucecivamente. */
+
+  /* comentarios css */
+body{
+  width: ;
+
+font-family:sans-serif;
+
+}
+
+.body{
+  display: flex;
+}
+
+/*--------------------Estilos header--------------------*/
+.nav{
+  /* background-color: #000000be; */
+  width: 42%;
+  height: 8%;
+  position: absolute;
+  top: 4%;
+  right: 1%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 120%;
+  
+}
+.enlacesNavegacion{
+   list-style-type: none; /* le saco estilos "viñetas" a los enlaces*/
+  margin-top: auto;
+  
+}
+.enlacesNavegacion li a{
+  text-decoration: none; /* le saco estilos "subrayado" a enlaces, llamando a li y a*/
+  color: rgb(255, 255, 255);
+  /* font-size: 120%; */
+  
+}
+ .enlacesNavegacion2{
+  color: black;
+  display: inline-block;
+  margin: 1%;
+  padding: 1%;
+  }
+h1{
+  color: rgb(105, 223, 94);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;
+  }
+.header{
+  background-color: rgba(11, 11, 219, 0.555);
+  background-image: url(../imagenes/pexels-maria-orlova-4946621.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 700px;
+  background-attachment: fixed;
+  background-size: cover;
+  color: black;
+  text-align: cover;
+  }
+.logoNav{
+    background-color:#88a6cb7c;
+    
+    
+  }
+.logoPag{
+    /* background-color: burlywood; */
+    color: white;
+    width: 20%;
+    height: 20%; 
+    font-family: 'Mr Dafoe', cursive;
+    font-weight: 299;
+    font-size: 299%;
+    padding-left: 4%;
+    /* margin-left: 5%; */
+    /* position: fixed; */
+    }
+.logoXl{
+      /* background-color: brown; */
+      color: white;
+      width: 50%;
+      height: 40%;
+      font-family: 'Mr Dafoe', cursive;
+      font-weight: 400;
+      font-size: 800%;
+      position: relative;
+      left: 25%;
+      top: 25%;
+    }
+    .logoXl1{
+      /* background-color: blue; */
+      width: 60%;
+      position: relative;
+      left: 40%;
+      bottom: 20%;
+      font-weight: ;
+      font-size: 50%;
+    }
+
+  
+  /* .header__img{
+    width: 400px;
+    height: 200px;
+    padding-top: 50%;
+    
+    position:relative;
+    top: 100%;
+    left: 50%;
+  } */
+ /*----------------Fin Estilos header--------------------*/
+ 
+ /*--------------------Estilos main----------------------*/
+ main {
+  background-color:#88A6CB;
+  color: rgb(0, 0, 0); font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+  .mainSection{
+  /* background-color:#60C0FF; */
+  height: 5%;
+  position: relative;
+  
+  
+  }
+
+  .mainH1{
+    /* background-color: blue; */
+    width: 40%;
+    padding-top: 50px;
+    position: relative;
+    top: 20%;
+    left: 30%;
+    color: white;
+    font-size: 200%;
+
+  }
+
+  .mainImg1{
+    width: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.445);
+    position: relative;
+    left: 10%;
+    bottom: 150px;
+    z-index: 1;
+  }
+  .mainImg2{
+    width: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.445);
+    position: relative;
+    left: 40%;
+    bottom: 400px;
+  }
+  .mainImg3{
+    width: 50%;
+  }
+  .mainP{
+    background-color: white;
+    width: 40%;
+    text-align: justify;
+    padding: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    border: 2px solid rgba(0, 0, 0, 0.445);
+    position: relative;
+    left: 40%;
+    top: 100px;
+    z-index: 2;
+    
+  }
+  .mainDiv1{
+    background-color: #b7cb88;
+    /* height: 100vh; */
+  }
+  .mainDiv2{
+    height: 100vh;
+  }
+  .mainDiv3{
+    height: 100vh;
+  }
+
+
+
+ 
+ 
+ 
+ 
+ 
+  h3{font-size: 25px; color: rgb(156, 156, 156);}
+
+ 
+
+ .formularioContacto{font-style: italic;}
+ ::placeholder{font-style: italic;}
+
+ .footer{
+  background-color: #104c97;
+  width: 100%;
+  height: 300px;
+  color: black;
+  text-align: center;
+  }
+  .logoPagFooter{
+    /* background-color: blue; */
+    color: white;
+    width: 16%;
+    height: 35%; 
+    font-family: 'Mr Dafoe', cursive;
+    font-weight: 299;
+    font-size: 310%;
+    position: relative;
+    left: 15%;
+    top: 32%;
+  }
+  .navFooter{
+    /* background-color: rgb(231, 77, 77); */
+    /* display: inline-block; */
+    width: 10%;
+    height: 45%;
+    position: relative;
+    bottom: 10%;
+    left: 45%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 120%;
+    font-weight: 400;
+    
+    
+    
+    
+  }
+  .navFooter nav a{
+    text-decoration: none;
+    color: white;
+    
+  }
+  .navFooter1{
+    list-style-type: none;
+  }
+
+  hr{
+  width: 80%;
+  position: relative;
+  left: 10%;
+  }
+
+  .derechos{
+    /* background-color: blueviolet; */
+    width: 30%;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    font-size: 80%;
+  }
+    
+
+
+ /*.logoPaginaFooter{
+  width: 20px;
+  height: 5px;
+}*/
