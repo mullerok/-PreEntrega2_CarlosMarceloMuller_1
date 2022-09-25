@@ -8,48 +8,62 @@
     <link rel="shortcut icon" href="favicon.ico">
     <!--"OBLIGATORIO" con esta etiqueta ponemos el icono de nuestra pagina en cada una de las pestañas, guardando la imagen que querramos que sea el icono en la misma carpeta de los achivos o paginas -->
     <enlace rel="preconectar" href="https://fonts.googleapis.com">
-        <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
-        <enlace href="https: //fonts.googleapis.com/css2? familia= Nunito:peso@300 & display=swap" rel="hoja de estilo">
+    <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+    <enlace href="https: //fonts.googleapis.com/css2? familia= Nunito:peso@300 & display=swap" rel="hoja de estilo">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
-   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 
 <body class="body">
 
+    
+
+    
+
     <header class="header">
 
-        <section class="logoNav">
+        <section class="logoNav sticky-xl-top">
             
-            <div class="logoPag">
-                <p>Hygge home</p>
-                <!-- <div class="logoPag1">
-                    <p>Hotel butique</p>
-                </div> -->
-            </div>
             
-               
-            <nav class="nav">
-                <ul class="enlacesNavegacion">
-                        <!-- <a href es etiqueta ancla de hiper vinculo, se utiliza para enlaces o links
-                    internos de nuestro sitio web y enlaces externo o absolutos como el ejemplo de "mercado libre"-->
-                        <li class="enlacesNavegacion2">  <a  href="#">Home</a> </li>
-                        <li class="enlacesNavegacion2">  <a  href="./paginas/el_hotel.html">El Hotel</a>   </li>
-                        <li class="enlacesNavegacion2">  <a  href="./paginas/galeria.html">Galeria</a>     </li>
-                        <li class="enlacesNavegacion2">  <a  href="./paginas/servicios.html">Servicios</a> </li>
-                        <li class="enlacesNavegacion2">  <a  href="./paginas/contacto.html">Contacto</a>   </li>
-                        <li class="enlacesNavegacion2">  <a  href="https://www.exaltaciondelacruz.gob.ar/TURISMO/" target="_blank">Turismo</a> </li>
-                        <!-- OBLIGATORIO PARA EL PROYECTO, enlace externo con atributo target=_blank para que 
-                        el enlace se abra en otra pestaña y no nos cierre la pagina que estamos navegando-->
-                        
-                </ul>
+            <nav class="navbar navbar-expand-md navbar-light bg-light fs-5  ">
+                <div class="container-fluid">
+                    <a class="navbar-brand logoPag fs-1" href="#">Hygge home</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fst-italic">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./paginas/el_hotel.html">El Hotel</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./paginas/galeria.html">Galeria</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./paginas/servicios.html">Servicios</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./paginas/contacto.html">Contacto</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="https://www.exaltaciondelacruz.gob.ar/TURISMO/" target="_blank">Turismo</a>
+                          </li>
+                          
+                        </ul>
+                        </div>
+                </div>
+            </nav>   
+    
                 
-            </nav>
+    
         </section>
-
-        
 
         <div class="logoXl">
             <div>
@@ -61,77 +75,61 @@
             </div>
         </div>
        
-       
-        
-        
     </header>
 
-    <main class="main">
-        
-        
-            <div class="mainSection">
-                <h1 class="mainH1">Un paraiso cerca de la ciudad</h1>
-            </div>
-        
+    <main class="main-home"> 
+
+        <div class="container-fluid">
             
+            <hr >
+
+            <div class="row featurette">
+              <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">Hygge Home -
+                     <span class="text-muted">Hotel Butique</span></h2>
+                <p class="lead">El punto de partida para vivir experiencias únicas.
+                    En la hermosa Ciudad de  Capilla del Señor, nuestras exclusivas habitaciones, crean en conjunto un ambiente hotelero único que lo hace adecuado para brindar privacidad y  seguridad a nuestros huéspedes, ofreciendo un confort moderno y distinguida hospitalidad que incluye todas las  medidas y protocolos de seguridad y sanidad requeridos  en la actualidad.</p>
+              </div>
+              <div class="col-md-5">
+                <img  src="./imagenes/732581008.jpg" alt="Imagen del frente del hotel con enoermes arboles en su frente" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/>
         
-            <div class="mainDiv1">
+              </div>
+            </div>
+        
+            <hr class="featurette-divider">
+        
+            <div class="row featurette">
+              <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1">Naturaleza -<span class="text-muted"> Descanza de la rutina</span></h2>
+                <p class="lead">Hygge Home cuenta con 3 hectareas de campos verdes y diversa cantidad de arboles añosos para que puedas recorer con libertad, desconectarte y econtrarte con vos mismo y la naturaleza.</p>
+              </div>
+              <div class="col-md-5 order-md-1">
+                <img  src="./imagenes/804962865.jpg" alt="Imagen del frente del hotel con enoermes arboles en su frente" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/>
                 
-                 <div class="mainP">
-                    <p><h2>Hyggy Home
-                        Hotel Butique</h2>
-                        El punto de partida para vivir experiencias únicas.
-                        En la hermosa Ciudad de  Capilla del Señor, nuestras exclusivas habitaciones, crean en conjunto un ambiente hotelero único que lo hace adecuado para brindar privacidad y  seguridad a nuestros huéspedes, ofreciendo un confort moderno y distinguida hospitalidad que incluye todas las  medidas y protocolos de seguridad y sanidad requeridos  en la actualidad.
+                <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/> <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        
+              </div>
+            </div>
+        
+            <hr class="featurette-divider">
+        
+            <div class="row featurette">
+              <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">Resto & Bar -<span class="text-muted">Gourmet</span></h2>
+                <p class="lead">Por la mañana puede comenzar tu día disfrutando de un completo y sabroso desayuno buffet           conformadopor   jugos naturales, café expreso, exquisitos tés, además de frutas, yogurt, cereales,      embutidos ymás.
+                    A la tarde puede sorprenderte una típica merienda argentina donde el papel protagónico del “mate”puede   llevarte a compartir tus experiencias del día.
+                    Durante la noche el ambiente de nuestro Bar te invita a disfrutar de esos  buenos momentos en losque   se comparte una bebida o un aperitivo con amigos y, o compañeros de viaje.</p>
+              </div>
+              <div class="col-md-5">
+                <img  src="./imagenes/728164531.jpg" alt="Imagen del frente del hotel con enoermes arboles en su frente" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/>
+        
+              </div>
+            </div>
+        
+            <hr class="featurette-divider">
+        </div>
             
-                        Hygge Home cuenta con una privilegiada ubicación a solo unos minutos de centro principal de la ciudad, de la majestuosa Parroquia y muy cercano a los mejores atractivos de éste maravilloso destino.
-            
-                        Servicio 100% personalizado.</p>
-                </div>
-                
-                <div>
-                    <img class="mainImg1" src="./imagenes/732581008.jpg" alt="Imagen de la entrada de veiculos de Hygge Home con un enorme arco de piedras y troncos>
-                </div>
-                <div>
-                    <img class="mainImg2" src="./imagenes/736019623.jpg" alt="Imagen de puerta de entrada por una galeria al hotel">
-                </div>
-            </div>
-        
-        
-        
-            <div>
-                   
-                <div class="mainP">
-                    <p><h2>Resto & Bar</h2>
-                        Por la mañana puede comenzar tu día disfrutando de un completo y sabroso desayuno buffet           conformadopor   jugos naturales, café expreso, exquisitos tés, además de frutas, yogurt, cereales,      embutidos ymás.
-                        A la tarde puede sorprenderte una típica merienda argentina donde el papel protagónico del “mate”puede   llevarte a compartir tus experiencias del día.
-                        Durante la noche el ambiente de nuestro Bar te invita a disfrutar de esos  buenos momentos en losque   se comparte una bebida o un aperitivo con amigos y, o compañeros de viaje.</p>
-                </div> 
-                
-                <div>
-                    <img class="mainImg1" src="./imagenes/804962385.jpg" alt="Imagen del almacen del hotel con mueble rustico para vajilla y productos de cocina">
-                </div>
-                <div>
-                    <img class="mainImg2" src="./imagenes/736025923.jpg" alt="imagen de hornos de barro encendidos saliendo humo">
-                </div>
-                
-            </div>
-        
-        
-            <div>
-                    
-                <div class="mainP">
-                    <p><h2>Naturaleza</h2>
-                        Hygge Home cuenta con 3 hectareas de campos verdes y diversa cantidad de arboles añosos para que puedas recorerlos con libertad, desconectarte y econtrarte con la naturaleza.</p>
-                </div>
-                
-                <div>
-                    <img class="mainImg1" src="./imagenes/804962865.jpg" alt="Imagen del frente del hotel con enoermes arboles en su frente">
-                </div>
-                <div>
-                    <img class="mainImg2" src="./imagenes/728164531.jpg" alt="Imagen del inmeso y verde paruq del hotel con antiguas y enormes carretillas de hierro">
-                </div>
-             
-            </div>
+               
         
     </main>
       
@@ -154,9 +152,37 @@
     <!-- <hr> hr es una etiqueta para formar una linea -->
     
     
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <p>Hygge home</p>
+            </div>
+            <div class="box">
+                <nav>
+                    <ul class="nav-footer-1">
+                        <li> <a href="#">Home</a>                             </li>
+                        <li> <a href="./paginas/el_hotel.html">El Hotel</a>   </li>
+                        <li> <a href="./paginas/galeria.html">Galeria</a>     </li>
+                        <li> <a href="./paginas/servicios.html">Servicios</a> </li>
+                        <li> <a href="./paginas/contacto.html">Contacto</a>   </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="box">
+                <div class="red-social">
+                    <a href="https://www.instagram.com/" target="_blank" class="bi bi-instagram"></a>
+                    <a href="https://es-la.facebook.com/" target="_blank" class="bi bi-facebook"></a>
+                    <a href="https://www.whatsapp.com/" target="_blank" class="bi bi-whatsapp"></a> 
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <p> © Copyright 2022 <b>Hygge Home</b> - All rights reserved.</p>
+        </div>
+    </footer>
 
    
-    <footer class="footer">
+    <!-- <footer class="footer ">
 
         <div class="logoPagFooter">
             <p>Hygge home</p>
@@ -172,24 +198,30 @@
                     <li> <a href="./paginas/servicios.html">Servicios</a> </li>
                     <li> <a href="./paginas/contacto.html">Contacto</a>   </li>
                 </ul>
-                
-                
-                
-                
-                
-                
             </nav>
         </section>
         
+        <div>
+            <a href="#" class="bi bi-instagram"></a>
+            <a href="#" class="bi bi-facebook"></a>
+            <a href="#" class="bi bi-whatsapp"></a>
+        </div>
+        
         
     
-        <!-- <p> redes sociales </p> -->
+        
         <hr>
-        <div class="derechos">
+        <div class="derechos container-fluid">
             <p> © Copyright 2022 Hygge Home. All rights reserved.  </p>
         </div>
         
 
-    </footer>
+    </footer> -->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html> 
