@@ -6,86 +6,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
     <link rel="shortcut icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/estilos.css">
        
 </head>
 <body>
-    <header class= "header">
-        <img src="https://picsum.photos/100/50" alt="logo">
-
-        <nav>
-            <ul class="enlacesNavegacion">
-                <li> <a href="../index.html">Home</a>         </li>
-                <li> <a href="./el_hotel.html">El Hotel</a>   </li>
-                <li> <a href="#">Galeria</a>     </li>
-                <li> <a href="./servicios.html">Servicios</a> </li>
-                <li> <a href="./contacto.html">Contacto</a>   </li>
-            </ul>
-        </nav>
+    
+    <header class="header">
         
-        <img src="https://picsum.photos/1200/200" alt="imagen random de prueba"loading="lazy">
-    </header>
+        <section class="logoNav sticky-xl-top">
+            
+            
+            <nav class="navbar navbar-expand-md navbar-light fs-5  ">
+                <div class="container-fluid">
+                    <a class="navbar-brand logoPag fs-1 text-light" href="../index.html">Hygge home</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fst-italic">
+                          <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="../index.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="./el_hotel.html">El Hotel</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">Galeria</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="./servicios.html">Servicios</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="./contacto.html">Contacto</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="https://www.exaltaciondelacruz.gob.ar/TURISMO/" target="_blank">Turismo</a>
+                          </li>
+                          
+                        </ul>
+                        </div>
+                </div>
+            </nav>   
     
-    
-    
-    
-    
-    
-    <h1>Galeria</h1>
-    <header>
-        <main>
-            <section>
-                <img src="../imagenes/img hygge.jpg" alt="" width="400" height="200"loading="lazy">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <iframe width="700" height="400" src="https://www.youtube.com/embed/TcrJUTs2kV0?start=56" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-            </section>
-        </main>
+        </section>
+
+        <div class="logoXl">
+            <div>
+                <p>Galeria</p>
+            </div>
+            
+        </div>
+        
     </header>
 
     <hr>
-    <!-- loading="lazy" es l etiqueta para que imagenes, videos, multimedia se vayan cargando a medida que bajamos o scroleamos la pagina y evitamos que la pagina este tan cargada-->
-    
-    <div>
-        <div>
-            <!--ejemplo de cards-->
-    
-            <img src="https://picsum.photos/400/100?random=1" alt="imagen 1"loading="lazy">
-            <h3>Titulo card 1</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="">Leer mas</a>
-        </div>
-        <div>
-            <!--ejemplo de cads-->
-    
-            <img src="https://picsum.photos/400/100?random=2" alt="imagen 2"loading="lazy">
-            <h3>Titulo card 2</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="">Leer mas</a>
-        </div><div>
-            <!--ejemplo de cads-->
-    
-            <img src="https://picsum.photos/400/100?random=3" alt="imagen 3"loading="lazy">
-            <h3>Titulo card 3</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="">Leer mas</a>
-        </div>
-    </div>
 
-    <footer class="footer">
-        <p> Hygge Home, todos los derechos reservados.  </p>
-        <nav>
-            <a href="../index.html">Home</a> 
-                <a href="./el_hotel.html">El Hotel</a>
-                <a href="#">Galeria</a> 
-                <a href="./servicios.html">Servicios</a>
-                <a href="./contacto.html">Contacto</a>
-        </nav>
-        <p> redes sociales </p>
-        <hr>
-        <p> © Copyright 2022 Hygge Home. All rights reserved.  </p>
+
+    
+    
+    
+    <main>
+
+        <section class="container-fluid">
+            <div class="row justify-content-around">
+              <div class="col-lg-4 col-md-6 col-sm-12 img-thumbnail"><img class="cover filtro imgHover" src="../imagenes/367746351.jpg" alt="" width="100%" height="100%"></div>
+              <div class="col-lg-4 col-md-6 col-sm-12 img-thumbnail"><img class="cover filtro imgHover" src="../imagenes/728114467.jpg" alt="" width="100%" height="100%"></div>
+              <div class="col-lg-4 col-md-6 col-sm-12 img-thumbnail"><img class="cover filtro imgHover" src="../imagenes/728114866.jpg" alt="" width="100%" height="100%"></div>
+              <div class="col-lg-4 col-md-6 col-sm-12 img-thumbnail"><img class="cover filtro imgHover" src="../imagenes/728114995 (1).jpg" alt="" width="100%" height="100%"></div>
+              <div class="col-lg-4 col-md-6 col-sm-12 img-thumbnail"><img class="cover filtro imgHover" src="../imagenes/728164531.jpg" alt="" width="100%" height="100%"></div>
+              <div class="col-lg-4 col-md-6 col-sm-12 img-thumbnail"><img class="cover filtro imgHover" src="../imagenes/732580663.jpg" alt="" width="100%" height="100%"></div>
+              <div class="col-lg-4 col-md-6 col-sm-12 img-thumbnail"><img class="cover filtro imgHover" src="../imagenes/736024783.jpg" alt="" width="100%" height="100%"></div>
+              <div class="col-lg-4 col-md-6 col-sm-12 img-thumbnail"><img class="cover filtro imgHover" src="../imagenes/732581008.jpg" alt="" width="100%" height="100%"></div>
+              <div class="col-lg-4 col-md-6 col-sm-12 img-thumbnail "><img class="cover filtro imgHover" src="../imagenes/736019623.jpg" alt="" width="100%" height="100%"></div>
+              <div class="col-lg-4 col-md-6 col-sm-12 img-thumbnail "><img class="cover filtro imgHover" src="../imagenes/736019722.jpg" alt="" width="100%" height="100%"></div>
+              <div class="col-lg-4 col-md-6 col-sm-12 img-thumbnail "><img class="cover filtro imgHover" src="../imagenes/736021195.jpg" alt="" width="100%" height="100%"></div>
+              <div class="col-lg-4 col-md-6 col-sm-12 img-thumbnail "><img class="cover filtro imgHover" src="../imagenes/736024096.jpg" alt="" width="100%" height="100%"></div>
+              <div class="col-lg-4 col-md-6 col-sm-12 img-thumbnail "><img class="cover filtro imgHover" src="../imagenes/736025014.jpg" alt="" width="100%" height="100%"></div>
+              <div class="col-lg-4 col-md-6 col-sm-12 img-thumbnail "><img class="cover filtro imgHover" src="../imagenes/736025116.jpg" alt="" width="100%" height="100%"></div>
+              <div class="col-lg-4 col-md-6 col-sm-12 img-thumbnail "><img class="cover filtro imgHover" src="../imagenes/736025923.jpg" alt="" width="100%" height="100%"></div>
+              <div class="col-lg-4 col-md-6 col-sm-12 img-thumbnail "><img class="cover filtro imgHover" src="../imagenes/736028095.jpg" alt="" width="100%" height="100%"></div>
+              <div class="col-lg-4 col-md-6 col-sm-12 img-thumbnail "><img class="cover filtro imgHover" src="../imagenes/804962385.jpg" alt="" width="100%" height="100%"></div>
+              <div class="col-lg-4 col-md-6 col-sm-12 img-thumbnail "><img class="cover filtro imgHover" src="../imagenes/asado.jpg" alt="" width="100%" height="100%"></div>
+              <div class="col-lg-4 col-md-6 col-sm-12 img-thumbnail "><img class="cover filtro imgHover" src="../imagenes/804962850.jpg" alt="" width="100%" height="100%"></div>
+              <div class="col-lg-4 col-md-6 col-sm-12 img-thumbnail "><img class="cover filtro imgHover" src="../imagenes/804963297.jpg" alt="" width="100%" height="100%"></div>
+              <div class="col-lg-4 col-md-6 col-sm-12 img-thumbnail "><img class="cover filtro imgHover" src="../imagenes/804962865.jpg" alt="" width="100%" height="100%"></div>
+            </div>
+        
+          </section>
+    </main>
+
+
+    <hr>
+    
+    
+    
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <p>Hygge home</p>
+            </div>
+            <div class="box ">
+                <nav>
+                    <ul class="nav-footer-1">
+                        <li> <a href="../index.html">Home</a>          </li>
+                        <li> <a href="./el_hotel.html">El Hotel</a>    </li>
+                        <li> <a href="#">Galeria</a>                   </li>
+                        <li> <a href="./servicios.html">Servicios</a>  </li>
+                        <li> <a href="./contacto.html">Contacto</a>    </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="box ">
+                <div class="red-social d-flex justify-content-center">
+                    <a href="https://www.instagram.com/" target="_blank" class="bi bi-instagram fs-2"></a>
+                    <a href="https://es-la.facebook.com/" target="_blank" class="bi bi-facebook fs-2"></a>
+                    <a href="https://www.whatsapp.com/" target="_blank" class="bi bi-whatsapp fs-2"></a> 
+                </div>
+            </div>
+        </div>
+        <hr class="container">
+        <div class="grupo-2">
+            <p> © Copyright 2022 <b>Hygge Home</b> - All rights reserved.</p>
+        </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
 </body>
 </html>

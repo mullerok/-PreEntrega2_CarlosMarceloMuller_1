@@ -1,62 +1,61 @@
 <!DOCTYPE html>
-<html lang="es"> <!-- es la etiqueta y atributo que determina el lenguaje del sitio web-->
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Home</title>
     <link rel="shortcut icon" href="favicon.ico">
-    <!--"OBLIGATORIO" con esta etiqueta ponemos el icono de nuestra pagina en cada una de las pestañas, guardando la imagen que querramos que sea el icono en la misma carpeta de los achivos o paginas -->
     <enlace rel="preconectar" href="https://fonts.googleapis.com">
     <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
     <enlace href="https: //fonts.googleapis.com/css2? familia= Nunito:peso@300 & display=swap" rel="hoja de estilo">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="css/estilos.css">
 </head>
 
-<body class="body">
+<body class="body bg-primary">
 
     
 
     
 
-    <header class="header">
+    <header class="header ">
 
         <section class="logoNav sticky-xl-top">
             
             
-            <nav class="navbar navbar-expand-md navbar-light bg-light fs-5  ">
+            <nav class="navbar navbar-expand-md navbar-light fs-5  ">
                 <div class="container-fluid">
-                    <a class="navbar-brand logoPag fs-1" href="#">Hygge home</a>
+                    <a class="navbar-brand logoPag fs-1 text-light" href="#">Hygge home</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarText">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fst-italic">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./paginas/el_hotel.html">El Hotel</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./paginas/galeria.html">Galeria</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./paginas/servicios.html">Servicios</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./paginas/contacto.html">Contacto</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="https://www.exaltaciondelacruz.gob.ar/TURISMO/" target="_blank">Turismo</a>
-                          </li>
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fst-italic">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" aria-current="page" href="./paginas/el_hotel.html">El Hotel</a>
+                                 </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" aria-current="page" href="./paginas/galeria.html">Galeria</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" aria-current="page" href="./paginas/servicios.html">Servicios</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" aria-current="page" href="./paginas/contacto.html">Contacto</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" aria-current="page" href="https://www.exaltaciondelacruz.gob.ar/TURISMO/" target="_blank">Turismo</a>
+                                </li>
                           
-                        </ul>
+                            </ul>
                         </div>
                 </div>
             </nav>   
@@ -65,7 +64,7 @@
     
         </section>
 
-        <div class="logoXl">
+        <div class="logoXlheader">
             <div>
                 <p>Hygge home</p>
             </div>
@@ -79,77 +78,61 @@
 
     <main class="main-home"> 
 
-        <div class="container-fluid">
-            
-            <hr >
+        <div class="container-fluid pt-1">
 
-            <div class="row featurette">
+            <div class="col d-flex p-5 justify-content-center ">
+                <h1>Bienvenidos!</h1>
+            </div>
+            
+          
+
+          <div class="row m-4">
               <div class="col-md-7">
                 <h2 class="featurette-heading fw-normal lh-1">Hygge Home -
                      <span class="text-muted">Hotel Butique</span></h2>
                 <p class="lead">El punto de partida para vivir experiencias únicas.
                     En la hermosa Ciudad de  Capilla del Señor, nuestras exclusivas habitaciones, crean en conjunto un ambiente hotelero único que lo hace adecuado para brindar privacidad y  seguridad a nuestros huéspedes, ofreciendo un confort moderno y distinguida hospitalidad que incluye todas las  medidas y protocolos de seguridad y sanidad requeridos  en la actualidad.</p>
               </div>
-              <div class="col-md-5">
+              <div class="col-md-5 text-center img-thumbnail">
                 <img  src="./imagenes/732581008.jpg" alt="Imagen del frente del hotel con enoermes arboles en su frente" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/>
         
               </div>
-            </div>
+          </div>
         
-            <hr class="featurette-divider">
+          <hr class="featurette-divider">
         
-            <div class="row featurette">
+           <div class="row m-4">
               <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading fw-normal lh-1">Naturaleza -<span class="text-muted"> Descanza de la rutina</span></h2>
                 <p class="lead">Hygge Home cuenta con 3 hectareas de campos verdes y diversa cantidad de arboles añosos para que puedas recorer con libertad, desconectarte y econtrarte con vos mismo y la naturaleza.</p>
               </div>
-              <div class="col-md-5 order-md-1">
+              <div class="col-md-5 text-center img-thumbnail order-md-1">
                 <img  src="./imagenes/804962865.jpg" alt="Imagen del frente del hotel con enoermes arboles en su frente" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/>
                 
                 <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/> <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
         
               </div>
-            </div>
+          </div>
         
-            <hr class="featurette-divider">
+          <hr class="featurette-divider">
         
-            <div class="row featurette">
+          <div class="row m-4">
               <div class="col-md-7">
                 <h2 class="featurette-heading fw-normal lh-1">Resto & Bar -<span class="text-muted">Gourmet</span></h2>
                 <p class="lead">Por la mañana puede comenzar tu día disfrutando de un completo y sabroso desayuno buffet           conformadopor   jugos naturales, café expreso, exquisitos tés, además de frutas, yogurt, cereales,      embutidos ymás.
                     A la tarde puede sorprenderte una típica merienda argentina donde el papel protagónico del “mate”puede   llevarte a compartir tus experiencias del día.
                     Durante la noche el ambiente de nuestro Bar te invita a disfrutar de esos  buenos momentos en losque   se comparte una bebida o un aperitivo con amigos y, o compañeros de viaje.</p>
               </div>
-              <div class="col-md-5">
+              <div class="col-md-5 text-center img-thumbnail">
                 <img  src="./imagenes/728164531.jpg" alt="Imagen del frente del hotel con enoermes arboles en su frente" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/>
         
               </div>
-            </div>
+          </div>
         
-            <hr class="featurette-divider">
-        </div>
             
-               
-        
+        </div>
+
     </main>
-      
-    
-    
-   
-
-   
-    <!-- img+tab  etiqueta para insertar imagen-->
-
-    <!-- alt+z  para que linea de texto se convierta 
-    en bloque de teto-->
-    <!-- para estructura basica de html   !+tabb  -->
-    <!-- esta es la etiqueta de comentarios que no se ve en la web -->
-    <!-- Para GRABAR ``CTRL+S´´   -->
-    
-    
-    
-    
-    <!-- <hr> hr es una etiqueta para formar una linea -->
     
     
     <footer class="pie-pagina">
@@ -169,54 +152,19 @@
                 </nav>
             </div>
             <div class="box">
-                <div class="red-social">
-                    <a href="https://www.instagram.com/" target="_blank" class="bi bi-instagram"></a>
-                    <a href="https://es-la.facebook.com/" target="_blank" class="bi bi-facebook"></a>
-                    <a href="https://www.whatsapp.com/" target="_blank" class="bi bi-whatsapp"></a> 
+                <div class="red-social d-flex justify-content-center">
+                    <a href="https://www.instagram.com/" target="_blank" class="bi bi-instagram fs-2"></a>
+                    <a href="https://es-la.facebook.com/" target="_blank" class="bi bi-facebook fs-2"></a>
+                    <a href="https://www.whatsapp.com/" target="_blank" class="bi bi-whatsapp fs-2"></a> 
                 </div>
             </div>
         </div>
+        <hr class="container">
         <div class="grupo-2">
             <p> © Copyright 2022 <b>Hygge Home</b> - All rights reserved.</p>
         </div>
     </footer>
 
-   
-    <!-- <footer class="footer ">
-
-        <div class="logoPagFooter">
-            <p>Hygge home</p>
-        </div>
-        
-        
-        <section class="navFooter">
-            <nav>
-                <ul class="navFooter1">
-                    <li> <a href="#">Home</a>                             </li>
-                    <li> <a href="./paginas/el_hotel.html">El Hotel</a>   </li>
-                    <li> <a href="./paginas/galeria.html">Galeria</a>     </li>
-                    <li> <a href="./paginas/servicios.html">Servicios</a> </li>
-                    <li> <a href="./paginas/contacto.html">Contacto</a>   </li>
-                </ul>
-            </nav>
-        </section>
-        
-        <div>
-            <a href="#" class="bi bi-instagram"></a>
-            <a href="#" class="bi bi-facebook"></a>
-            <a href="#" class="bi bi-whatsapp"></a>
-        </div>
-        
-        
-    
-        
-        <hr>
-        <div class="derechos container-fluid">
-            <p> © Copyright 2022 Hygge Home. All rights reserved.  </p>
-        </div>
-        
-
-    </footer> -->
 
 
 

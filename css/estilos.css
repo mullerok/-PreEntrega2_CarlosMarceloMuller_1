@@ -1,54 +1,19 @@
-*{margin: 0px;
-  padding: 0px;}  /* esto es un reset de margenes y espaciados de de textos y secciones */
- /*determina el tamaño de la fuente en todo el html y luego con la unidad relativa REM parto del valor de la fuente que le di al html y pongo, 1rem va a ser igual a los 10px, 2rem= 20px, 4rem=40px y asi sucecivamente. */
+* {
+  margin: 0px;
+  padding: 0px; }
 
-  /* comentarios css */
-body{
+body {
+  font-family: sans-serif; }
 
-font-family:sans-serif;
+h1 {
+  color: #9c9c9c; }
 
-}
+h3 {
+  color: #9c9c9c; }
 
-
-
-/*--------------------Estilos header--------------------*/
-.nav{
-  /* background-color: #000000be; */
-  width: 42%;
-  height: 8%;
-  position: absolute;
-  top: 4%;
-  right: 1%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 120%;
-  
-}
-.enlacesNavegacion{
-   list-style-type: none; /* le saco estilos "viñetas" a los enlaces*/
-  margin-top: auto;
-  
-}
-.enlacesNavegacion li a{
-  text-decoration: none; /* le saco estilos "subrayado" a enlaces, llamando a li y a*/
-  color: rgb(255, 255, 255);
-  /* font-size: 120%; */
-  
-}
- .enlacesNavegacion2{
-  color: black;
-  display: inline-block;
-  margin: 1%;
-  padding: 1%;
-  }
-h1{
-  color: rgb(105, 223, 94);
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-weight: 500;
-  }
-.header{
-  background-color: rgba(11, 11, 219, 0.555);
-  /* background-image: url(../imagenes/pexels-maria-orlova-4946621.jpg); */
-  background: linear-gradient(to bottom ,rgba(0, 0, 0, 0.308),rgba(0, 0, 0, 0.658),rgba(0, 0, 0, 0.932)),url(../imagenes/pexels-maria-orlova-4946621.jpg) ;
+.header {
+  background-color: #0b0bdb8e;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.575), rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.589)), url(../imagenes/pexels-maria-orlova-4946621.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   height: 700px;
@@ -56,171 +21,164 @@ h1{
   background-size: cover;
   color: black;
   text-align: cover;
-  display:flex; 
-  flex-direction:column;
-  align-items:center;
-  /* justify-content: center; */
-  
-  }
-.logoNav{
-    /* background-color:#88a6cb7c; */
-    width: 100%;
-  }
-.logoPag{
-    /* background-color: burlywood; */
-    color: white;
-    width: 20%;
-    height: 20%; 
-    font-family: 'Mr Dafoe', cursive;
-    font-weight: 299;
-    font-size: 3rem;
-    padding-left: 4%;
-    /* margin-left: 5%; */
-    /* position: fixed; */
-    }
-.logoXl{
-      /* background-color: brown; */
-      color: white;
-      width: 50%;
-      height: 40%;
-      font-family: 'Mr Dafoe', cursive;
-      font-weight: 400;
-      font-size: 800%;
-      position: relative;
-      
-      top: 25%;
-      
-    }
-    .logoXl1{
-      /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .header .logoNav {
+    width: 100%; }
+    .header .logoNav .logoPag {
+      color: #ffffff;
+      width: 20%;
+      height: 20%;
+      font-family: "Mr Dafoe", cursive;
+      font-weight: 299;
+      font-size: 3rem;
+      padding-left: 4%; }
+  .header .logoXlheader {
+    color: #7effbec4;
+    width: 50%;
+    height: 40%;
+    font-family: "Mr Dafoe", cursive;
+    font-weight: 400;
+    font-size: 800%;
+    position: relative;
+    top: 20%;
+    left: 6%; }
+    .header .logoXlheader .logoXl1 {
       width: 60%;
       position: relative;
       left: 40%;
       bottom: 20%;
-      font-size: 50%;
-    }
+      font-size: 50%; }
 
+.logoXl {
+  color: #7effbec4;
+  width: 50%;
+  height: 40%;
+  font-family: "Mr Dafoe", cursive;
+  font-weight: 400;
+  font-size: 800%;
+  position: relative;
+  top: 20%;
+  left: 10%; }
 
- /*----------------Fin Estilos header--------------------*/
- 
- /*--------------------Estilos main----------------------*/
- 
- .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-}
-.main-el-hotel{
-  background-color: #53f885;
-  height: 550px;
-}
-.main-home{
-  background-color: #53f885;
-  
-}
+.featurette-divider {
+  margin: 5rem 4rem; }
 
+.main-el-hotel {
+  background-color: #ffffff;
+  height: 700px; }
 
- 
- h3{font-size: 25px; color: rgb(156, 156, 156);}
+.main-home {
+  height: 1600px;
+  background-color: #ffffff; }
 
- 
+.main-contacto {
+  background-color: #ffffff; }
 
- .formularioContacto{font-style: italic;}
- ::placeholder{font-style: italic;}
+.cover {
+  object-fit: cover; }
 
- .pie-pagina{
+.filtro {
+  filter: brightness(70%); }
+
+.imgHover {
+  transition: all 1s;
+  z-index: -1; }
+
+.imgHover:hover {
+  filter: brightness(100%);
+  transform: scale(1.4);
+  z-index: 10;
+  overflow: hidden;
+  cursor: pointer;
+  align-self: center; }
+
+.imgHover:click {
+  filter: brightness(100%);
+  transform: scale(1.5);
+  z-index: 10;
+  cursor: zoom-in;
+  align-self: center; }
+
+.imgHover:focus {
+  filter: brightness(100%);
+  transform: scale(1.5);
+  z-index: 10;
+  cursor: zoom-in;
+  align-self: center; }
+
+.pie-pagina {
   width: 100%;
-  background-color:#ffcc89 ;
- }
- .pie-pagina .grupo-1{
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 50px;
-  padding: 45px 0px;
- }
- .pie-pagina .grupo-1 .box p{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Mr Dafoe', cursive;
-  font-size: 350%;
- }
- .pie-pagina .grupo-1 .box .nav-footer-1{
-  
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  list-style-type: none;
- }
- .pie-pagina .grupo-1 .box .nav-footer-1 a{
-  text-decoration: none;
-  color: #000000;
-  font-size: 20px;
- }
- 
- .pie-pagina .grupo-1 .box .red-social a{
-  display: inline-block;
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  color: white;
-  margin-right: 10px;
-  background-color: #d22033;
-  text-align: center;
-  transition: all 400ms ease;
- }
- .pie-pagina .grupo-1 .box .red-social a:hover{
-  color: #2ef76a;
- }
- .pie-pagina .grupo-2{
-  background-color: #fdd7a5;
-  padding: 10px 10px;
-  text-align: center;
-  color: #000000;
- }
+  background-color: #858df8; }
+  .pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px; }
+    .pie-pagina .grupo-1 .box p {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Mr Dafoe", cursive;
+      font-size: 350%;
+      color: #311c1c; }
+    .pie-pagina .grupo-1 .box .nav-footer-1 {
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+      list-style-type: none; }
+    .pie-pagina .grupo-1 .box .nav-footer-1 a {
+      text-decoration: none;
+      color: #311c1c;
+      font-size: 20px; }
+    .pie-pagina .grupo-1 .box .red-social a {
+      display: inline-block;
+      width: 45px;
+      height: 45px;
+      line-height: 100px;
+      color: #311c1c;
+      margin-right: 10px;
+      text-align: center;
+      transition: all 200ms ease; }
+      .pie-pagina .grupo-1 .box .red-social a:hover {
+        color: #fcff51; }
+  .pie-pagina .grupo-2 {
+    background-color: #858df8;
+    padding: 20px;
+    text-align: center;
+    color: #311c1c; }
 
+@media screen and (max-width: 580px) {
+  .header .logoXl {
+    color: #7effbec4;
+    width: 70%;
+    height: 25%;
+    font-family: "Mr Dafoe", cursive;
+    font-weight: 400;
+    font-size: 500%; } }
 
+@media screen and (min-width: 581px) and (max-width: 1050px) {
+  .header .logoXl {
+    color: #7effbec4;
+    width: 80%;
+    height: 40%;
+    font-family: "Mr Dafoe", cursive;
+    font-weight: 400;
+    font-size: 650%; } }
 
-
-@media screen and (max-width:580px) {
-  .logoXl{
-    /* background-color: brown; */
-      color: white;
-      width: 70%;
-      height: 25%;
-      font-family: 'Mr Dafoe', cursive;
-      font-weight: 400;
-      font-size: 500%;
-  }
-  
-  
-}
-
-@media screen and (min-width:581px) and (max-width:1050px){
-  .logoXl{
-    /* background-color: brown; */
-      color: white;
-      width: 80%;
-      height: 40%;
-      font-family: 'Mr Dafoe', cursive;
-      font-weight: 400;
-      font-size: 650%;
-  }
-  
-}
-@media screen and (max-width:800px){
-  .pie-pagina .grupo-1{
+@media screen and (max-width: 800px) {
+  .pie-pagina .grupo-1 {
     width: 90%;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: px;
-    padding: 45px 0px;
-   }
-   
-}
+    padding: 45px 0px; } }
