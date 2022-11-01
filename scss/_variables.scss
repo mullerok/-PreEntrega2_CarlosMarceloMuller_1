@@ -4,10 +4,10 @@ $color-texto3:#9c9c9c;
 $color-texto4:#311c1c;
 
 $color-fondo1:#ffffff;
-$color-fondo2:#858df8;
+$color-fondo2:#ebba71;
 $color-fondo3:#0b0bdb8e;
 
-$color-hover:#fcff51;
+$color-hover:#c6e1ff;
 
 $filtro70:brightness(70%);
 $filtro100:brightness(100%);
@@ -22,3 +22,10 @@ $alinear-center:center;
 $fuente: 10px;
 
 $tipografia1: 'Mr Dafoe', cursive;
+
+$color-texto:(
+    color1:  #7effbec4,
+    color2:  #ffffff,
+    color3:  #9c9c9c,
+    color4:  #311c1c,
+);

@@ -1,0 +1,62 @@
+.pie-pagina{
+    width: 100%;
+    background-color:$color-fondo2;
+    .grupo-1{
+      width: 100%;
+      max-width: 1200px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 50px;
+      padding: 45px 0px;
+      .box{
+        p{
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: $alinear-center;
+          align-items: $alinear-center;
+          font-family: $tipografia1;
+          font-size: 350%;
+          color: $color-texto4;
+         }
+         .nav-footer-1{
+          padding: 0;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: $alinear-center;
+          text-decoration: none;
+          list-style-type: none;
+         }
+         .nav-footer-1 a{
+          text-decoration: none;
+          color: $color-texto4;
+          font-size: 20px;
+         }
+         .red-social a{
+          display: inline-block;
+          width: 45px;
+          height: 45px;
+          line-height: 100px;
+          color: $color-texto4;
+          margin-right: 10px;
+          text-align: $alinear-center;
+          transition: all 600ms ease;
+          &:hover{
+            color: $color-hover;
+           }
+         }
+         
+      } 
+     }
+     .grupo-2{
+      background-color: $color-fondo2;
+      padding:20px;
+      text-align: $alinear-center;
+      color: $color-texto4;
+     }
+     
+   }
+   

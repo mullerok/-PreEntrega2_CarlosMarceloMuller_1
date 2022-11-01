@@ -1,7 +1,17 @@
+@import "fuentes";
 @import "variables";
+@import "mixins";
+@import "reset";
+@import "header_index";
+@import "header_paginas";
+@import "main_home";
+@import "main_elHotel";
+@import "main_galeria";
+@import "main_contacto";
+@import "footer";
 
-*{margin: 0px;
-    padding: 0px;}  
+
+ 
   
   
   body{
@@ -15,197 +25,198 @@
     color: $color-texto3;
     
   }
-  .header{
-    background-color: $color-fondo3;
-    background: linear-gradient(to bottom ,rgba(0, 0, 0, 0.575),rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.589)),url(../imagenes/pexels-maria-orlova-4946621.jpg) ;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 700px;
-    background-attachment: fixed;
-    background-size: $rellenocover;
-    color: black;
-    text-align: $rellenocover;
-    display:flex; 
-    flex-direction:column;
-    align-items:$alinear-center;
-    .logoNav{
-        width: 100%;
-        .logoPag{
-            color: $color-texto2;
-            width: 20%;
-            height: 20%; 
-            font-family: $tipografia1;
-            font-weight: 299;
-            font-size: 3rem;
-            padding-left: 4%;
-            }
-      }
-    .logoXlheader{
-        color: $color-texto1;
-        width: 50%;
-        height: 40%;
-        font-family: $tipografia1;
-        font-weight: 400;
-        font-size: 800%;
-        position: $posicion-relativa;
-        top: 20%;
-        left: 6%;
-        .logoXl1{
-            width: 60%;
-            position: $posicion-relativa;
-            left: 40%;
-            bottom: 20%;
-            font-size: 50%;
-          }
-        }
+  // .header{
+  //   background-color: $color-fondo3;
+  //   background: linear-gradient(to bottom ,rgba(0, 0, 0, 0.575),rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.589)),url(../imagenes/pexels-maria-orlova-4946621.jpg) ;
+  //   background-repeat: no-repeat;
+  //   background-position: center center;
+  //   height: 700px;
+  //   background-attachment: fixed;
+  //   background-size: $rellenocover;
+  //   color: black;
+  //   text-align: $rellenocover;
+  //   display:flex; 
+  //   flex-direction:column;
+  //   align-items:$alinear-center;
+  //   .logoNav{
+  //       width: 100%;
+  //       .logoPag{
+  //           color: $color-texto2;
+  //           width: 20%;
+  //           height: 20%; 
+  //           font-family: $tipografia1;
+  //           font-weight: 299;
+  //           font-size: 3rem;
+  //           padding-left: 4%;
+  //           }
+  //     }
+  //   .logoXlheader{
+  //       color: $color-texto1;
+  //       width: 50%;
+  //       height: 40%;
+  //       font-family: $tipografia1;
+  //       font-weight: 400;
+  //       font-size: 800%;
+  //       position: $posicion-relativa;
+  //       top: 20%;
+  //       left: 6%;
+  //       .logoXl1{
+  //           width: 60%;
+  //           position: $posicion-relativa;
+  //           left: 40%;
+  //           bottom: 20%;
+  //           font-size: 50%;
+  //         }
+  //       }
 
-    }
-    .logoXl{
-    color: $color-texto1;
-    width: 50%;
-    height: 40%;
-    font-family: $tipografia1;
-    font-weight: 400;
-    font-size: 800%;
-    position: $posicion-relativa;
-    top: 20%;
-    left: 10%;
-    }
+  //   }
+  //   .logoXl{
+  //   color: $color-texto1;
+  //   width: 50%;
+  //   height: 40%;
+  //   font-family: $tipografia1;
+  //   font-weight: 400;
+  //   font-size: 800%;
+  //   position: $posicion-relativa;
+  //   top: 20%;
+  //   left: 10%;
+  //   }
    
    .featurette-divider {
     margin: 5rem 4rem; 
   }
-  .main-el-hotel{
-    background-color: $color-fondo1;
-    height: 700px;
-  }
-  .main-home{
-    height: 1600px;
-    background-color: $color-fondo1;
-  }
-  .main-contacto{
-    background-color: $color-fondo1;
-  }
-  .cover{
-    object-fit: $rellenocover;
-  }
-  .filtro{
-    filter: $filtro70;
-  }
-  .imgHover{
-    transition: all 1s;
-    z-index: -1;
-  }
-  .imgHover:hover{
-    filter: $filtro100;
-    transform: scale(1.4);
-    z-index: 10;
-    overflow:hidden;
-    cursor:pointer;
-    align-self: $alinear-center;
-  }
-  .imgHover:click{
-    filter: $filtro100;
-    transform: scale(1.5);
-    z-index: 10;
-    cursor:zoom-in;
-    align-self: $alinear-center;
-  }
-  .imgHover:focus{
-    filter: $filtro100;
-    transform: scale(1.5);
-    z-index: 10;
-    cursor:zoom-in;
-    align-self: $alinear-center;
-  }
+  // .main-el-hotel{
+  //   background-color: $color-fondo1;
+  //   height: 700px;
+  // }
+  // .main-home{
+  //   height: 1600px;
+  //   background-color: $color-fondo1;
+  // }
+  // .main-contacto{
+  //   background-color: $color-fondo1;
+  // }
+  // .cover{
+  //   object-fit: $rellenocover;
+  // }
+  // .filtro{
+  //   filter: $filtro70;
+  // }
+  // .imgHover{
+  //   transition: all 1s;
+  //   z-index: -1;
+  // }
+  // .imgHover:hover{
+  //   filter: $filtro100;
+  //   transform: scale(1.4);
+  //   z-index: 10;
+  //   overflow:hidden;
+  //   cursor:pointer;
+  //   align-self: $alinear-center;
+  // }
+  // .imgHover:click{
+  //   filter: $filtro100;
+  //   transform: scale(1.5);
+  //   z-index: 10;
+  //   cursor:zoom-in;
+  //   align-self: $alinear-center;
+  // }
+  // .imgHover:focus{
+  //   filter: $filtro100;
+  //   transform: scale(1.5);
+  //   z-index: 10;
+  //   cursor:zoom-in;
+  //   align-self: $alinear-center;
+  // }
   
-.pie-pagina{
-    width: 100%;
-    background-color:$color-fondo2;
-    .grupo-1{
-      width: 100%;
-      max-width: 1200px;
-      margin: auto;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 50px;
-      padding: 45px 0px;
-      .box{
-        p{
-          width: 100%;
-          height: 100%;
-          display: flex;
-          justify-content: $alinear-center;
-          align-items: $alinear-center;
-          font-family: $tipografia1;
-          font-size: 350%;
-          color: $color-texto4;
-         }
-         .nav-footer-1{
-          padding: 0;
-          width: 100%;
-          height: 100%;
-          display: flex;
-          flex-direction: column;
-          align-items: $alinear-center;
-          text-decoration: none;
-          list-style-type: none;
-         }
-         .nav-footer-1 a{
-          text-decoration: none;
-          color: $color-texto4;
-          font-size: 20px;
-         }
-         .red-social a{
-          display: inline-block;
-          width: 45px;
-          height: 45px;
-          line-height: 100px;
-          color: $color-texto4;
-          margin-right: 10px;
-          text-align: $alinear-center;
-          transition: all 200ms ease;
-          &:hover{
-            color: $color-hover;
-           }
-         }
+// .pie-pagina{
+//     width: 100%;
+//     background-color:$color-fondo2;
+//     .grupo-1{
+//       width: 100%;
+//       max-width: 1200px;
+//       margin: auto;
+//       display: grid;
+//       grid-template-columns: repeat(3, 1fr);
+//       grid-gap: 50px;
+//       padding: 45px 0px;
+//       .box{
+//         p{
+//           width: 100%;
+//           height: 100%;
+//           display: flex;
+//           justify-content: $alinear-center;
+//           align-items: $alinear-center;
+//           font-family: $tipografia1;
+//           font-size: 350%;
+//           color: $color-texto4;
+//          }
+//          .nav-footer-1{
+//           padding: 0;
+//           width: 100%;
+//           height: 100%;
+//           display: flex;
+//           flex-direction: column;
+//           align-items: $alinear-center;
+//           text-decoration: none;
+//           list-style-type: none;
+//          }
+//          .nav-footer-1 a{
+//           text-decoration: none;
+//           color: $color-texto4;
+//           font-size: 20px;
+//          }
+//          .red-social a{
+//           display: inline-block;
+//           width: 45px;
+//           height: 45px;
+//           line-height: 100px;
+//           color: $color-texto4;
+//           margin-right: 10px;
+//           text-align: $alinear-center;
+//           transition: all 200ms ease;
+//           &:hover{
+//             color: $color-hover;
+//            }
+//          }
          
-      } 
-     }
-     .grupo-2{
-      background-color: $color-fondo2;
-      padding:20px;
-      text-align: $alinear-center;
-      color: $color-texto4;
-     }
+//       } 
+//      }
+//      .grupo-2{
+//       background-color: $color-fondo2;
+//       padding:20px;
+//       text-align: $alinear-center;
+//       color: $color-texto4;
+//      }
      
-   }
+//    }
   
-  @media screen and (max-width:580px) {
-    .header .logoXl{
-        color: $color-texto1;
-        width: 70%;
-        height: 25%;
-        font-family: $tipografia1;
-        font-weight: 400;
-        font-size: 500%;
-    }
-  }
+  // @media screen and (max-width:580px) {
+  //   .header .logoXl{
+  //       color: $color-texto1;
+  //       width: 70%;
+  //       height: 25%;
+  //       font-family: $tipografia1;
+  //       font-weight: 400;
+  //       font-size: 500%;
+  //   }
+  // }
   
-  @media screen and (min-width:581px) and (max-width:1050px){
-    .header .logoXl{
-        color: $color-texto1;
-        width: 80%;
-        height: 40%;
-        font-family: $tipografia1;
-        font-weight: 400;
-        font-size: 650%;
-    }
+  // @media screen and (min-width:581px) and (max-width:1050px){
+  //   .header .logoXl{
+  //       color: $color-texto1;
+  //       width: 80%;
+  //       height: 40%;
+  //       font-family: $tipografia1;
+  //       font-weight: 400;
+  //       font-size: 650%;
+  //   }
     
-  }
+  // }
   @media screen and (max-width:800px){
     .pie-pagina .grupo-1{
       width: 90%;
+      height: auto;
       grid-template-columns: repeat(1, 1fr);
       grid-gap: px;
       padding: 45px 0px;

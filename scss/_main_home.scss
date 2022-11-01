@@ -1,0 +1,9 @@
+.main-home{
+    height: 1600px;
+    background-color: $color-fondo1;
+  }
+  @media screen and (max-width:780px){
+    .main-home{
+      height: 100%;
+    }
+  }

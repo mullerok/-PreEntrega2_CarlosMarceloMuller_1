@@ -1,0 +1,32 @@
+.cover{
+    object-fit: $rellenocover;
+  }
+  .filtro{
+    filter: $filtro70;
+  }
+  .imgHover{
+    transition: all 1s;
+    z-index: -1;
+  }
+  .imgHover:hover{
+    filter: $filtro100;
+    transform: scale(1.4);
+    z-index: 10;
+    overflow:hidden;
+    cursor:pointer;
+    align-self: $alinear-center;
+  }
+  .imgHover:click{
+    filter: $filtro100;
+    transform: scale(1.5);
+    z-index: 10;
+    cursor:zoom-in;
+    align-self: $alinear-center;
+  }
+  .imgHover:focus{
+    filter: $filtro100;
+    transform: scale(1.5);
+    z-index: 10;
+    cursor:zoom-in;
+    align-self: $alinear-center;
+  }
